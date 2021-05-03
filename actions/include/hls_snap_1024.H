@@ -82,5 +82,9 @@ typedef struct {
         snapu64_t Reserved; // Priv_data
 } CONTROL;
 
+typedef struct {
+        snapu32_t action_type;   // 4 bytes
+        snapu32_t release_level; // 4 bytes
+} action_RO_config_reg;
 
 #endif  /* __HLS_SNAP_H__ */
