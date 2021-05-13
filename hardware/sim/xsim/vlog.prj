@@ -1,4 +1,5 @@
-verilog work --include "../../oc-bip/board_support_packages/ad9v3/verilog/xilinx/encrypted_buffer_bypass" --include "../../hdl/core" --include "../../oc-bip/config_subsystem" --include "../../../SNAP-Kernels/hls_HSTO/hw/hlsHSTO_xcvu3p-ffvc1517-2-e/HSTO/.autopilot/db" --include "../../../SNAP-Kernels/hls_HSTO/hw/hlsHSTO_xcvu3p-ffvc1517-2-e/HSTO/.autopilot/db/driver/src" --include "../../../SNAP-Kernels/hls_HSTO/hw/hlsHSTO_xcvu3p-ffvc1517-2-e/HSTO/impl/misc/drivers/hls_action_v1_0/src" --include "../../../SNAP-Kernels/hls_HSTO/hw/support" --include "../../../SNAP-Kernels/hls_HSTO/hw/support/common/inc/AOCLUtils" --include "../../../SNAP-Kernels/hls_HSTO/hw" \
+verilog work --include "../../oc-bip/board_support_packages/ad9v3/verilog/xilinx/encrypted_buffer_bypass" --include "../../hdl/core" --include "../../oc-bip/config_subsystem" \
+"../../hdl/hls/action_wrapper.v" \
 "../../hdl/oc/axi_lite_master.v" \
 "../../hdl/oc/brdg_axi_slave.v" \
 "../../hdl/oc/brdg_axi_slave_cmd_fifo.v" \
@@ -34,7 +35,7 @@ verilog work --include "../../oc-bip/board_support_packages/ad9v3/verilog/xilinx
 "../../hdl/oc/ram_true_dual.v" \
 "../../hdl/oc/tlx_mmio_converter.v" \
 
-sv work --include "../../oc-bip/board_support_packages/ad9v3/verilog/xilinx/encrypted_buffer_bypass" --include "../../hdl/core" --include "../../oc-bip/config_subsystem" --include "../../../SNAP-Kernels/hls_HSTO/hw/hlsHSTO_xcvu3p-ffvc1517-2-e/HSTO/.autopilot/db" --include "../../../SNAP-Kernels/hls_HSTO/hw/hlsHSTO_xcvu3p-ffvc1517-2-e/HSTO/.autopilot/db/driver/src" --include "../../../SNAP-Kernels/hls_HSTO/hw/hlsHSTO_xcvu3p-ffvc1517-2-e/HSTO/impl/misc/drivers/hls_action_v1_0/src" --include "../../../SNAP-Kernels/hls_HSTO/hw/support" --include "../../../SNAP-Kernels/hls_HSTO/hw/support/common/inc/AOCLUtils" --include "../../../SNAP-Kernels/hls_HSTO/hw" \
+sv work --include "../../oc-bip/board_support_packages/ad9v3/verilog/xilinx/encrypted_buffer_bypass" --include "../../hdl/core" --include "../../oc-bip/config_subsystem" \
 "../../oc-bip/sim/src/top.sv" \
 
 verilog work "glbl.v"

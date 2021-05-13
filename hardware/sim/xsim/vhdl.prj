@@ -1,0 +1,8 @@
+vhdl work  \
+"../../../actions/hls_helloworld_1024/hw/hlsUpperCase_xcvu3p-ffvc1517-2-e/helloworld/syn/vhdl/hls_action.vhd" \
+"../../../actions/hls_helloworld_1024/hw/hlsUpperCase_xcvu3p-ffvc1517-2-e/helloworld/syn/vhdl/hls_action_ctrl_reg_s_axi.vhd" \
+"../../../actions/hls_helloworld_1024/hw/hlsUpperCase_xcvu3p-ffvc1517-2-e/helloworld/syn/vhdl/hls_action_host_mem_m_axi.vhd" \
+"../../../actions/hls_helloworld_1024/hw/hlsUpperCase_xcvu3p-ffvc1517-2-e/helloworld/syn/vhdl/process_action.vhd" \
+"../../../actions/hls_helloworld_1024/hw/hlsUpperCase_xcvu3p-ffvc1517-2-e/helloworld/syn/vhdl/process_action_text.vhd" \
+
+nosort
